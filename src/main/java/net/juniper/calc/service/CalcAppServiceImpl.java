@@ -4,6 +4,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class CalcAppServiceImpl implements CalcAppService {
+	
+	private String s = "useless";
 
 	@Override
 	public int addition(int no1, int no2) {
