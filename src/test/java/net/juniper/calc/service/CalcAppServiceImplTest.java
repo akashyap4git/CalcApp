@@ -10,6 +10,8 @@ import static org.mockito.MockitoAnnotations.initMocks;
 
 public class CalcAppServiceImplTest {
 	
+	private String leakPer = "Leak";
+	
     @Before
     public void setup() {
     	initMocks(this);
