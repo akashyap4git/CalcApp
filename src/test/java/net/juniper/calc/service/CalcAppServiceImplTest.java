@@ -5,12 +5,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
-import org.mockito.Mock;
 import static org.mockito.MockitoAnnotations.initMocks;
 
 public class CalcAppServiceImplTest {
-	
-	private String leakPer = "Leak";
 	
     @Before
     public void setup() {
