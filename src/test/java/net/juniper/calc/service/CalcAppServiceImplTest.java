@@ -25,5 +25,14 @@ public class CalcAppServiceImplTest {
 		int sum = calc.addition(no1, no2);
 		assertEquals(150, sum);
 	}
+	
+	@Test
+	public void testSub() {
+		int no1 = 100;
+		int no2 = 50;
+		
+		int sub = calc.substraction(no1, no2);
+		assertEquals(50, sub);
+	}
 
 }
