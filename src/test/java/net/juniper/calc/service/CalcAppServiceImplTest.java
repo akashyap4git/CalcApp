@@ -27,12 +27,12 @@ public class CalcAppServiceImplTest {
 	}
 	
 	@Test
-	public void testSubstraction() {
-		int no1 = 10;
-		int no2 = 5;
+	public void testSub() {
+		int no1 = 100;
+		int no2 = 50;
 		
-		int sum = calc.substraction(no1, no2);
-		assertEquals(5, sum);
+		int sub = calc.substraction(no1, no2);
+		assertEquals(50, sub);
 	}
 
 }
